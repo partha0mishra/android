@@ -13,15 +13,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val rollButton: Button = findViewById(R.id.button)
-        val dice=Dice(6)// instantiating the dice here instead of instantiating inside fn
-        rollButton.setOnClickListener { rollDice(dice) }
+        // instantiating the dice here instead of instantiating inside fn
+        val dice0=Dice(6)
+        val dice1=Dice(6)
+        rollButton.setOnClickListener {
+            rollDice(dice0, R.id.textView0)
+            rollDice(dice1, R.id.textView)
+        }
     }
 
     /**
      * Roll the dice and update the screen with result
      */
-    private fun rollDice(dice: Dice) {
-        val resultTextView: TextView = findViewById(R.id.textView)
+    private fun rollDice(dice: Dice, elementId: Int) {
+        val resultTextView: TextView= findViewById(elementId)
         resultTextView.text = dice.roll().toString()
     }
 }
