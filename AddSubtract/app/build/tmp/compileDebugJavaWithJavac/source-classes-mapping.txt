@@ -1,0 +1,2 @@
+com/example/addsubtract/BuildConfig.java
+ com.example.addsubtract.BuildConfig

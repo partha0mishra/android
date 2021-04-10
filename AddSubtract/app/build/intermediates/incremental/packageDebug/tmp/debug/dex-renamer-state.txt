@@ -1,0 +1,4 @@
+#Sat Apr 10 12:29:03 CDT 2021
+base.0=D\:\\50_Android\\AddSubtract\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
