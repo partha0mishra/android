@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun populate(){
         // starting with 3 random numbers
-        val a=(0..10).random()
+        val a=(1..10).random()
         val b=(0..10).random()
         val c=(0..10).random()
         // Getting the TextView elements
