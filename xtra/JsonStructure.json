@@ -1,0 +1,18 @@
+{
+	"res": "words",
+    "mta-root": "ent|oth",
+    "mta-ent": {"typ": "arr", "com": "obj|txt|pix|tag", "not":"Entries"},
+    "mta-ent-obj": {"typ": "str", "not":"Object Name"},
+    "mta-ent-txt": {"typ": "str", "not":"Display Text"},
+    "mta-ent-pix": {"typ": "str", "not":"Picture"},
+    "mta-ent-tag": {"typ": "str", "not":"Pipe separated tags"},
+    "mta-oth": {"typ": "obj", "com":"ver"},
+    "mta-oth-ver":{"typ": "num"},
+	"ent": [{
+		"obj": "x_y",
+		"txt": "X Y",
+		"pix": "pic_x",
+		"tag": "color"
+	}],
+    "oth": {"ver":"0.1"}
+}
